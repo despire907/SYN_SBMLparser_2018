@@ -1,0 +1,82 @@
+1B.sbml0000644000175000017500000000022313117766112012477 0ustar  ratouneyratouney<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" >
+</sbml>
+1C.sbml0000644000175000017500000000032413117766124012505 0ustar  ratouneyratouney<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" >
+<model name="Homo sapiens Glycolysis" id="Pathway146" >
+</model>
+</sbml>
+1D.sbml0000644000175000017500000000064613117766576012530 0ustar  ratouneyratouney<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" >
+<model name="Homo sapiens Glycolysis" id="Pathway146" >
+<listOfCompartments>
+<compartment name="Homo sapiens, Cell, Cytosol" id="Cytosol"/>
+<compartment name="Allah ahkbar" id="Allah"/>
+<compartment name="Donnez moi des credits plz" id="AER"/>
+</listOfCompartments>
+</model>
+</sbml>
+1E.sbml0000644000175000017500000000214513117766610012512 0ustar  ratouneyratouney<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" >
+<model name="Homo sapiens Glycolysis" id="Pathway146" >
+<listOfCompartments>
+<compartment name="Homo sapiens, Cell, Cytosol" id="Cytosol"/>
+<compartment name="Allah ahkbar" id="Allah"/>
+<compartment name="Donnez moi des credits plz" id="AER"/>
+</listOfCompartments>
+<listOfSpecies>
+<species compartment="Cytosol" name="Adenosine diphosphate" id="Compound1034"/>
+<species compartment="Cytosol" name="Glucose 6-phosphate" id="Compound1083"/>
+<species compartment="Cytosol" name="Alpha-D-Glucose" id="Compound1851"/>
+<species compartment="Cytosol" name="Adenosine triphosphate" id="Compound414"/>
+<species compartment="Allah" name="Mohamed" id="Compound1337"/>
+<species compartment="Allah" name="Karim" id="Compound42"/>
+<species compartment="Allah" name="Samir" id="Compound69"/>
+<species compartment="AER" name="Guigui" id="Compound1"/>
+<species compartment="AER" name="Jon" id="Compound2"/>
+<species compartment="AER" name="Merlin" id="Compound2805"/>
+</listOfSpecies>
+</model>
+</sbml>
+1F.sbml0000644000175000017500000000322513117766621012515 0ustar  ratouneyratouney<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" >
+<model name="Homo sapiens Glycolysis" id="Pathway146" >
+<listOfCompartments>
+<compartment name="Homo sapiens, Cell, Cytosol" id="Cytosol"/>
+<compartment name="Allah ahkbar" id="Allah"/>
+<compartment name="Donnez moi des credits plz" id="AER"/>
+</listOfCompartments>
+<listOfReactions>
+<reaction reversible="false" name="Hexokinase-3" id="Reaction1232" compartment="Cytosol">
+<listOfReactants>
+<speciesReference stoichiometry="1" species="Compound1851"/>
+<speciesReference stoichiometry="1" species="Compound414"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference stoichiometry="1" species="Compound1083"/>
+<speciesReference stoichiometry="1" species="Compound1034"/>
+</listOfProducts>
+</reaction>
+<reaction reversible="true" name="Bagdadium" id="Reaction911" compartment="Allah">
+<listOfReactants>
+<speciesReference stoichiometry="1" species="Compound42"/>
+<speciesReference stoichiometry="3" species="Compound69"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference stoichiometry="2" species="Compound1337"/>
+<speciesReference stoichiometry="1" species="Compound414"/>
+</listOfProducts>
+</reaction>
+<reaction reversible="false" name="Synthèse" id="Reaction54" compartment="AER">
+<listOfReactants>
+<speciesReference stoichiometry="1" species="Compound1939"/>
+<speciesReference stoichiometry="2" species="Compound2"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference stoichiometry="2" species="Compound1"/>
+<speciesReference stoichiometry="1" species="Compound2805"/>
+</listOfProducts>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>
